@@ -1,6 +1,7 @@
 
 .container-fluid {
     position: relative; /* Per consentire il posizionamento assoluto all'interno */
+    padding: 0px;
 }
 
 .text-title {
@@ -16,6 +17,10 @@
 
 .text-red{
     color: red;
+}
+
+.text h1{
+    font-family: "Permanent Marker", cursive ;
 }
 
 h1, p{
@@ -72,7 +77,9 @@ h1, p{
 }
 
 #h2-title-mete{
-    color: white
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    
 }
 
 .text-title-mete{
@@ -168,6 +175,7 @@ div.text-title-question{
     justify-content: center !important;
     margin-top: 25px;
     margin-bottom: 25px;
+   
 }
 
 div.text-title-question h3{
@@ -178,11 +186,27 @@ div.text-title-question h3{
     display: flex;
     justify-content: center;
     margin: 10px auto;
+    
+    
 }
+
+.common-questions{
+   
+    height: 300px;
+}
+
+
 
 #accordionExample{
     width: 600px;
 }
+
+.accordion-body p{
+    text-align: left;
+}
+
+
+
 
 
 
