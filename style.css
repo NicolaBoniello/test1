@@ -1,8 +1,21 @@
 
+.container-fluid {
+    position: relative; /* Per consentire il posizionamento assoluto all'interno */
+}
 
-.text{
-    display: flex;
-    justify-content: center;
+.text-title {
+    position: absolute; /* Posizionamento assoluto rispetto al contenitore padre */
+    top: 50%; /* Sposta il testo al centro verticalmente */
+    left: 50%; /* Sposta il testo al centro orizzontalmente */
+    transform: translate(-50%, -50%); /* Centra il testo esattamente al centro */
+    text-align: center; /* Centra il testo orizzontalmente */
+    color: white; /* Colore del testo */
+    font-size: 24px; /* Dimensione del testo */
+    font-family: "Permanent Marker", cursive;
+}
+
+.text-red{
+    color: red;
 }
 
 h1, p{
