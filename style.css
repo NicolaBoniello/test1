@@ -1,0 +1,175 @@
+
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+h1, p{
+    text-align: center;
+}
+
+#how-work{
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(144, 114, 114);
+    border-radius: 10%;
+}
+
+.card-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sub-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.icon{
+    width: 200px;
+    height: 200px;
+}
+
+.img-card{
+    display: flex;
+    justify-content: center;
+}
+
+.text-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+/* Stili per schermi di dimensioni inferiori o uguali a 600px */
+@media screen and (max-width: 1000px) {
+    .sub-container {
+        display: flex;
+        flex-direction: column; /* Le card saranno disposte in colonna */
+    }
+
+    .card {
+        width: 100%; /* Le card occuperanno tutta la larghezza disponibile */
+        margin-bottom: 20px; /* Spazio tra le card */
+    }
+}
+
+/* Stili per schermi di dimensioni tra 601px e 992px */
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    #how-work {
+        text-align: center; /* Centra il testo */
+    }
+}
+
+/* Stili per schermi di dimensioni superiori a 992px */
+@media screen and (min-width: 993px) {
+    .text {
+        max-width: 800px; /* Limita la larghezza del testo */
+        margin: 0 auto; /* Centra il contenuto */
+    }
+}
+
+.mete{
+    margin-top: 50px;
+   
+    background-color: black;
+}
+
+#h2-title-mete{
+    color: white
+}
+
+.text-title-mete{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+h2#h2-title-mete{
+    margin-top: 30px;
+    text-align: center;
+}
+
+div.box-mete{
+    display: grid;
+    grid-template-rows: 341px 341px 341px;
+    grid-template-columns: 326px 326px 326px;
+    gap: 15px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+div.item{
+    border: 1px solid black;
+    position: relative;
+    
+    
+}
+
+div.container-box-mete{
+    display: flex;
+    justify-content: center;
+}
+
+.item img{
+    height: 341px;
+    width: 326px;
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 1000px) {
+    div.box-mete {
+        grid-template-columns: 1fr !important; /* Griglia 1x9 su schermi più piccoli */
+    }
+}
+
+.image-text {
+    position: absolute;
+    top: 50%; /* Posiziona il testo al centro verticalmente */
+    left: 50%; /* Posiziona il testo al centro orizzontalmente */
+    transform: translate(-50%, -50%); /* Sposta il testo indietro di metà della sua larghezza e altezza per centrarlo perfettamente */
+   font-size: 60px;
+    color: white; /* Colore del testo */
+    padding: 5px 10px; /* Spaziatura interna */
+    font-family: "Permanent Marker", cursive;
+}
+
+.centered-button {
+  position: absolute;
+   top: 250px;
+   left: 71px;
+   right: 71px;
+
+   background: none;
+   border: 1px solid white;
+   border-radius: 10%;
+   padding: 10px;
+
+}
+
+button.centered-button a{
+    color: white;
+    text-decoration: none;
+    font-family:  "Permanent Marker", cursive;
+}
+
+@media (max-width: 768px) {
+    .img-fluid {
+      height: 50vh; /* Altezza del 50% della viewport height */
+      width: auto; /* Mantenere l'aspetto proporzionato */
+    }
+}
+
+
+
+
+
