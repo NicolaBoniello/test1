@@ -145,7 +145,7 @@ div.container-box-mete{
     top: 50%; /* Posiziona il testo al centro verticalmente */
     left: 50%; /* Posiziona il testo al centro orizzontalmente */
     transform: translate(-50%, -50%); /* Sposta il testo indietro di metà della sua larghezza e altezza per centrarlo perfettamente */
-   font-size: 60px;
+    font-size: 60px;
     color: white; /* Colore del testo */
     padding: 5px 10px; /* Spaziatura interna */
     font-family: "Permanent Marker", cursive;
@@ -156,7 +156,7 @@ div.container-box-mete{
    top: 250px;
    left: 71px;
    right: 71px;
-
+  
    background: none;
    border: 1px solid white;
    border-radius: 10%;
@@ -252,6 +252,35 @@ div.text-title-question h3{
         grid-template-columns: 1fr !important; /* Griglia 1x9 su schermi più piccoli */
         
 
+    }
+
+    .item img{
+        width: calc(326px * 0.8); /* Riduzione dell'ampiezza del 20% */
+        height: calc(341px * 0.8); /* Riduzione dell'altezza del 20% */
+        border-radius: 10%;
+    }
+
+    .centered-button {
+        position: absolute;
+         top: 150px;
+         left: 31px;
+         right: 71px;
+         width: 200px;
+         background: none;
+         border: 1px solid white;
+         border-radius: 10%;
+         padding: 10px;
+      
+      }
+
+      .image-text {
+        position: absolute;
+        top: 100px;
+        transform: translate(-50%, -50%); /* Sposta il testo indietro di metà della sua larghezza e altezza per centrarlo perfettamente */
+        font-size: 50px;
+        color: white; /* Colore del testo */
+        padding: 5px 10px; /* Spaziatura interna */
+        font-family: "Permanent Marker", cursive;
     }
 }
 
