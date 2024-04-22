@@ -216,11 +216,16 @@ div.text-title-question h3{
     .sub-container {
         display: flex;
         flex-direction: column; /* Le card saranno disposte in colonna */
+        align-items: center;
+
+
+        
     }
 
     .card {
-        width: 100%; /* Le card occuperanno tutta la larghezza disponibile */
+        width: 60%; /* Le card occuperanno tutta la larghezza disponibile */
         margin-bottom: 20px; /* Spazio tra le card */
+
     }
 }
 
@@ -245,6 +250,8 @@ div.text-title-question h3{
     }
     div.box-mete {
         grid-template-columns: 1fr !important; /* Griglia 1x9 su schermi più piccoli */
+        
+
     }
 }
 
