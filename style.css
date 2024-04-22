@@ -223,7 +223,7 @@ div.text-title-question h3{
     }
 
     .card {
-        width: 60%; /* Le card occuperanno tutta la larghezza disponibile */
+        width: 70%; /* Le card occuperanno tutta la larghezza disponibile */
         margin-bottom: 20px; /* Spazio tra le card */
 
     }
