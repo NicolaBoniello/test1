@@ -250,7 +250,7 @@ div.text-title-question h3{
     }
     div.box-mete {
         grid-template-columns: 1fr !important; /* Griglia 1x9 su schermi più piccoli */
-        gap: 5px;
+        gap: 10px;
         
         
 
