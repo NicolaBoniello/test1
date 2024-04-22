@@ -250,6 +250,8 @@ div.text-title-question h3{
     }
     div.box-mete {
         grid-template-columns: 1fr !important; /* Griglia 1x9 su schermi più piccoli */
+        gap: 5px;
+        
         
 
     }
@@ -258,6 +260,7 @@ div.text-title-question h3{
         width: calc(326px * 0.8); /* Riduzione dell'ampiezza del 20% */
         height: calc(341px * 0.8); /* Riduzione dell'altezza del 20% */
         border-radius: 10%;
+        
     }
 
     .centered-button {
